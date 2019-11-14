@@ -16,8 +16,8 @@ namespace nocia_manager
 
         IFirebaseConfig config = new FirebaseConfig
         {
-            AuthSecret = "prJA3HbKTp3XrZtwjo9Pmg7MjGEOH7EhcQN7rn8N",
-            BasePath = "https://nocia-3b13c.firebaseio.com"
+            AuthSecret = "",
+            BasePath = ""
         };
 
         IFirebaseClient client;
