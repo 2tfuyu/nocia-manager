@@ -1,0 +1,19 @@
+﻿<Window x:Class="nocia_manager.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:nocia_manager"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="Title" HorizontalAlignment="Left" Height="40" Margin="150,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="200"/>
+        <Label Content="タイトル" HorizontalAlignment="Left" Margin="58,10,0,0" VerticalAlignment="Top" Height="40" Width="52"/>
+        <TextBox x:Name="Author" HorizontalAlignment="Left" Height="40" Margin="150,55,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="200"/>
+        <Label Content="著者" HorizontalAlignment="Left" Margin="71,55,0,0" VerticalAlignment="Top" Width="39" Height="40"/>
+        <TextBox x:Name="Body" HorizontalAlignment="Left" Height="311" Margin="150,100,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="633"/>
+        <Label Content="本文" HorizontalAlignment="Left" Margin="71,100,0,0" VerticalAlignment="Top" Width="39" Height="40"/>
+        <Button x:Name="Upload" Content="投稿" HorizontalAlignment="Left" Margin="469,27,0,0" VerticalAlignment="Top" Width="130" Height="36" Click="Upload_Click"/>
+        <ListBox x:Name="NewsList" HorizontalAlignment="Left" Height="266" Margin="10,145,0,0" VerticalAlignment="Top" Width="100" SelectionChanged="NewsList_SelectionChanged" />
+    </Grid>
+</Window>
